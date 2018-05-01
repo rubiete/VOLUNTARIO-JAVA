@@ -21,7 +21,7 @@ public class ManejaEsferas {
 		PelotaGolf golfball;
 		golfball=new PelotaGolf(cd,"nike",5,'k',1.23);
 		
-		System.out.println("La pelota de golf tiene las siguientes características: marca "+golfball.getMarca()+", tipo "+golfball.getTipo()+ " y tiene una densidad de "+golfball.getDensidad()+" gramos/cm3");
+		System.out.println("La pelota de golf tiene las siguientes caracterÃ­sticas: marca "+golfball.getMarca()+", tipo "+golfball.getTipo()+ " y tiene una densidad de "+golfball.getDensidad()+" gramos/cm3");
 		System.out.println("La pelota de golf tiene un radio "+cd.getDistance()+" cm");
 		System.out.println("La pelota de golf tiene un area de "+golfball.getArea()+" cm2");
 		System.out.println("Una pelota de golf tiene un volumen de "+golfball.getVolumen()+" cm3");
@@ -35,12 +35,12 @@ public class ManejaEsferas {
 		PelotaBasket basketball;
 		basketball= new PelotaBasket(ef,"puma",9,10.8,5);
 		
-		System.out.println("La pelota de basket tiene las siguientes características: marca "+basketball.getMarca());
+		System.out.println("La pelota de basket tiene las siguientes caracterÃ­sticas: marca "+basketball.getMarca());
 		System.out.println("La pelota de basket tiene un radio "+ef.getDistance()+" cm");
 		System.out.println("La pelota de basket tiene un area de "+basketball.getArea()+" cm2");
 		System.out.println("Una pelota de basket tiene un volumen de "+basketball.getVolumen()+" cm3");
 		System.out.println("El volumen de las " +basketball.getCantidad()+ " pelotas de golf es "+basketball.getVolumenTotal()+" cm3");
-		System.out.println("Una pelota de basket lleva una velovidad de "+basketball.getVelocidad()+" metros/segundo");
+		System.out.println("Una pelota de basket lleva una velocidad de "+basketball.getVelocidad()+" metros/segundo");
 		System.out.println("En " +basketball.getTiempo()+ " segundos, una pelota de basket recorre "+basketball.getEspacio()+" metros");
 				
 	}
