@@ -4,8 +4,8 @@ public class PelotaBasket extends Pelota {
 	private double velocidad;
 	private int tiempo;
 	
-	public PelotaBasket(Segmento radio, String marca, int cantidad, double velocidad, int tiempo) {
-		super(radio, marca, cantidad);
+	public PelotaBasket(Segmento radio,Punto centro, String marca, int cantidad, double velocidad, int tiempo) {
+		super(radio,centro, marca, cantidad);
 		this.velocidad = velocidad;
 		this.tiempo = tiempo;
 	}
