@@ -9,7 +9,7 @@ public class ManejaEsferas {
 		b=new Punto(3,1,'B');
 		ab=new Segmento(a,b);
 		Esfera bola;
-		bola=new Esfera(ab);
+		bola=new Esfera(ab,a);
 		
 		System.out.println("La esfera tiene un radio "+ab.getDistance()+" cm");
 		System.out.println("La esfera tiene un area de "+bola.getArea()+" cm2");
@@ -19,7 +19,7 @@ public class ManejaEsferas {
 		d=new Punto(2,2,'D');
 		cd=new Segmento(c,d);
 		PelotaGolf golfball;
-		golfball=new PelotaGolf(cd,"nike",5,'k',1.23);
+		golfball=new PelotaGolf(cd,c,"nike",5,'k',1.23);
 		
 		System.out.println("La pelota de golf tiene las siguientes características: marca "+golfball.getMarca()+", tipo "+golfball.getTipo()+ " y tiene una densidad de "+golfball.getDensidad()+" gramos/cm3");
 		System.out.println("La pelota de golf tiene un radio "+cd.getDistance()+" cm");
@@ -33,7 +33,7 @@ public class ManejaEsferas {
 		f=new Punto(0,12,'F');
 		ef= new Segmento(e,f);
 		PelotaBasket basketball;
-		basketball= new PelotaBasket(ef,"puma",9,10.8,5);
+		basketball= new PelotaBasket(ef,e,"puma",9,10.8,5);
 		
 		System.out.println("La pelota de basket tiene las siguientes características: marca "+basketball.getMarca());
 		System.out.println("La pelota de basket tiene un radio "+ef.getDistance()+" cm");
