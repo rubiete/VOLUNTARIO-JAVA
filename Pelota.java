@@ -4,8 +4,8 @@ public class Pelota extends Esfera {
 	private String marca;
 	private int cantidad;
 
-	public Pelota(Segmento radio, String marca, int cantidad) {
-		super(radio);
+	public Pelota(Segmento radio,Punto centro, String marca, int cantidad) {
+		super(radio, centro);
 		this.marca = marca;
 		this.cantidad = cantidad;
 	}
