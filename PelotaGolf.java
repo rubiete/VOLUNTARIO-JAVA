@@ -4,8 +4,8 @@ public class PelotaGolf extends Pelota{
 	private char tipo;
 	private double densidad;
 	
-	public PelotaGolf(Segmento radio, String marca, int cantidad, char tipo, double densidad) {
-		super(radio, marca, cantidad);
+	public PelotaGolf(Segmento radio,Punto centro, String marca, int cantidad, char tipo, double densidad) {
+		super(radio,centro, marca, cantidad);
 		this.tipo = tipo;
 		this.densidad = densidad;
 	}
